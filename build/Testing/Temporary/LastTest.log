@@ -1,18 +1,18 @@
-Start testing: Apr 17 16:31 CDT
+Start testing: Apr 18 14:13 CDT
 ----------------------------------------------------------
 1/1 Testing: CalculatorTest
 1/1 Test: CalculatorTest
 Command: "/Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorTest/CalculatorTest"
 Directory: /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorTest
-"CalculatorTest" start time: Apr 17 16:31 CDT
+"CalculatorTest" start time: Apr 18 14:13 CDT
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.33 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest" end time: Apr 17 16:31 CDT
+"CalculatorTest" end time: Apr 18 14:13 CDT
 "CalculatorTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 17 16:31 CDT
+End testing: Apr 18 14:13 CDT

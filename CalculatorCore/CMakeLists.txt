@@ -1,5 +1,5 @@
 project(CalculatorCore)
-add_library(CalculatorCore STATIC src/main.cpp)
+add_library(CalculatorCore STATIC src/Calculator.cpp)
 target_link_libraries(CalculatorCore PUBLIC)
 target_include_directories(CalculatorCore
                            PUBLIC
