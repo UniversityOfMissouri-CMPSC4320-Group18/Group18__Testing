@@ -3,11 +3,10 @@
 
 class Calculator {
 public:
-  Calculator();
-  int Add(int value_1, int value_2);
-  int Subtract(int value_1, int value_2);
-  int Divide(int value_1, int value_2);
-  int Multiply(int value_1, int value_2);
+  static int Add(int value_1, int value_2);
+  static int Subtract(int value_1, int value_2);
+  static int Divide(int value_1, int value_2);
+  static int Multiply(int value_1, int value_2);
 };
 
 #endif

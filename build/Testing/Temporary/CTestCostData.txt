@@ -1,2 +1,2 @@
-CalculatorTest 2 0.00277996
+CalculatorTest 3 0.0645072
 ---

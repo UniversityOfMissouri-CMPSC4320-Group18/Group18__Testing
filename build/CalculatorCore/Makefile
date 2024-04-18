@@ -78,7 +78,7 @@ test/fast: test
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/opt/homebrew/Cellar/cmake/3.27.7/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CMake.app/Contents/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -140,29 +140,29 @@ CalculatorCore/fast:
 	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build && $(MAKE) $(MAKESILENT) -f CalculatorCore/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore/CMakeFiles/CalculatorCore.dir/build
 .PHONY : CalculatorCore/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/Calculator.o: src/Calculator.cpp.o
+.PHONY : src/Calculator.o
 
 # target to build an object file
-src/main.cpp.o:
-	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build && $(MAKE) $(MAKESILENT) -f CalculatorCore/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore/CMakeFiles/CalculatorCore.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/Calculator.cpp.o:
+	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build && $(MAKE) $(MAKESILENT) -f CalculatorCore/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o
+.PHONY : src/Calculator.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/Calculator.i: src/Calculator.cpp.i
+.PHONY : src/Calculator.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build && $(MAKE) $(MAKESILENT) -f CalculatorCore/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore/CMakeFiles/CalculatorCore.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/Calculator.cpp.i:
+	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build && $(MAKE) $(MAKESILENT) -f CalculatorCore/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.i
+.PHONY : src/Calculator.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/Calculator.s: src/Calculator.cpp.s
+.PHONY : src/Calculator.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build && $(MAKE) $(MAKESILENT) -f CalculatorCore/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore/CMakeFiles/CalculatorCore.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/Calculator.cpp.s:
+	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build && $(MAKE) $(MAKESILENT) -f CalculatorCore/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.s
+.PHONY : src/Calculator.cpp.s
 
 # Help Target
 help:
@@ -174,9 +174,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... CalculatorCore"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/Calculator.o"
+	@echo "... src/Calculator.i"
+	@echo "... src/Calculator.s"
 .PHONY : help
 
 

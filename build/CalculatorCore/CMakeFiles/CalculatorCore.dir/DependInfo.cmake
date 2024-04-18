@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/main.cpp" "CalculatorCore/CMakeFiles/CalculatorCore.dir/src/main.cpp.o" "gcc" "CalculatorCore/CMakeFiles/CalculatorCore.dir/src/main.cpp.o.d"
+  "/Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp" "CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o" "gcc" "CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
