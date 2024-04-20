@@ -1,0 +1,5 @@
+if(EXISTS "/Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorTest/mytests[1]_tests.cmake")
+  include("/Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorTest/mytests[1]_tests.cmake")
+else()
+  add_test(mytests_NOT_BUILT mytests_NOT_BUILT)
+endif()

@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/Library/Developer/CommandLineTools/usr/bin/cc")
+set(CMAKE_C_COMPILER "/usr/bin/clang")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "AppleClang")
 set(CMAKE_C_COMPILER_VERSION "14.0.3.14030022")
@@ -21,11 +21,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/Library/Developer/CommandLineTools/usr/bin/ar")
+set(CMAKE_AR "/usr/bin/ar")
 set(CMAKE_C_COMPILER_AR "")
-set(CMAKE_RANLIB "/Library/Developer/CommandLineTools/usr/bin/ranlib")
+set(CMAKE_RANLIB "/usr/bin/ranlib")
 set(CMAKE_C_COMPILER_RANLIB "")
-set(CMAKE_LINKER "/Library/Developer/CommandLineTools/usr/bin/ld")
+set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "/Library/Developer/CommandLineTools/usr/bin/tapi")
 set(CMAKE_COMPILER_IS_GNUCC )
@@ -70,5 +70,5 @@ endif()
 
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/Library/Frameworks/SDL2.framework;/Users/davidmarino/Desktop/projects/Group18__Testing;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/local/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks")

@@ -73,15 +73,15 @@ CalculatorMain/CMakeFiles/CalculatorMain.dir/src/main.cpp.o: CalculatorMain/CMak
 CalculatorMain/CMakeFiles/CalculatorMain.dir/src/main.cpp.o: /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorMain/src/main.cpp
 CalculatorMain/CMakeFiles/CalculatorMain.dir/src/main.cpp.o: CalculatorMain/CMakeFiles/CalculatorMain.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/davidmarino/Desktop/projects/Group18__Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CalculatorMain/CMakeFiles/CalculatorMain.dir/src/main.cpp.o"
-	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorMain && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CalculatorMain/CMakeFiles/CalculatorMain.dir/src/main.cpp.o -MF CMakeFiles/CalculatorMain.dir/src/main.cpp.o.d -o CMakeFiles/CalculatorMain.dir/src/main.cpp.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorMain/src/main.cpp
+	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorMain && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CalculatorMain/CMakeFiles/CalculatorMain.dir/src/main.cpp.o -MF CMakeFiles/CalculatorMain.dir/src/main.cpp.o.d -o CMakeFiles/CalculatorMain.dir/src/main.cpp.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorMain/src/main.cpp
 
 CalculatorMain/CMakeFiles/CalculatorMain.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CalculatorMain.dir/src/main.cpp.i"
-	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorMain && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorMain/src/main.cpp > CMakeFiles/CalculatorMain.dir/src/main.cpp.i
+	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorMain && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorMain/src/main.cpp > CMakeFiles/CalculatorMain.dir/src/main.cpp.i
 
 CalculatorMain/CMakeFiles/CalculatorMain.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CalculatorMain.dir/src/main.cpp.s"
-	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorMain && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorMain/src/main.cpp -o CMakeFiles/CalculatorMain.dir/src/main.cpp.s
+	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorMain && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorMain/src/main.cpp -o CMakeFiles/CalculatorMain.dir/src/main.cpp.s
 
 # Object files for target CalculatorMain
 CalculatorMain_OBJECTS = \
@@ -92,6 +92,7 @@ CalculatorMain_EXTERNAL_OBJECTS =
 
 CalculatorMain/CalculatorMain: CalculatorMain/CMakeFiles/CalculatorMain.dir/src/main.cpp.o
 CalculatorMain/CalculatorMain: CalculatorMain/CMakeFiles/CalculatorMain.dir/build.make
+CalculatorMain/CalculatorMain: CalculatorCore/libCalculatorCore.a
 CalculatorMain/CalculatorMain: CalculatorMain/CMakeFiles/CalculatorMain.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/davidmarino/Desktop/projects/Group18__Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CalculatorMain"
 	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorMain && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CalculatorMain.dir/link.txt --verbose=$(VERBOSE)

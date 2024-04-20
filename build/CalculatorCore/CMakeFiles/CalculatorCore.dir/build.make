@@ -73,15 +73,15 @@ CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o: CalculatorCor
 CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o: /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp
 CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o: CalculatorCore/CMakeFiles/CalculatorCore.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/davidmarino/Desktop/projects/Group18__Testing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o"
-	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorCore && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o -MF CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o.d -o CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp
+	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorCore && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o -MF CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o.d -o CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp
 
 CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.i"
-	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorCore && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp > CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.i
+	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorCore && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp > CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.i
 
 CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.s"
-	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorCore && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp -o CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.s
+	cd /Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorCore && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp -o CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.s
 
 # Object files for target CalculatorCore
 CalculatorCore_OBJECTS = \

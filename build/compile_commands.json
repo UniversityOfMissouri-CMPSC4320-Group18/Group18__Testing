@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/davidmarino/Desktop/projects/Group18__Testing/build",
+  "command": "/usr/bin/clang++  -I/Users/davidmarino/Desktop/projects/Group18__Testing/googletest/include -I/Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/include -I/Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest/include -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/mytests.dir/CalculatorTest/test2.cpp.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorTest/test2.cpp",
+  "file": "/Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorTest/test2.cpp",
+  "output": "CMakeFiles/mytests.dir/CalculatorTest/test2.cpp.o"
+},
+{
+  "directory": "/Users/davidmarino/Desktop/projects/Group18__Testing/build/CalculatorCore",
+  "command": "/usr/bin/clang++  -I/Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp",
+  "file": "/Users/davidmarino/Desktop/projects/Group18__Testing/CalculatorCore/src/Calculator.cpp",
+  "output": "CalculatorCore/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o"
+},
+{
+  "directory": "/Users/davidmarino/Desktop/projects/Group18__Testing/build/googletest/googlemock",
+  "command": "/usr/bin/clang++  -I/Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googlemock/include -I/Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googlemock -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest/include -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest -g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googlemock/src/gmock-all.cc",
+  "file": "/Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googlemock/src/gmock-all.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/Users/davidmarino/Desktop/projects/Group18__Testing/build/googletest/googlemock",
+  "command": "/usr/bin/clang++  -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googlemock/include -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googlemock -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest/include -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest -g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googlemock/src/gmock_main.cc",
+  "file": "/Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googlemock/src/gmock_main.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/Users/davidmarino/Desktop/projects/Group18__Testing/build/googletest/googletest",
+  "command": "/usr/bin/clang++  -I/Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest/include -I/Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest -g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest/src/gtest-all.cc",
+  "file": "/Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest/src/gtest-all.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/Users/davidmarino/Desktop/projects/Group18__Testing/build/googletest/googletest",
+  "command": "/usr/bin/clang++  -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest/include -isystem /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest -g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest/src/gtest_main.cc",
+  "file": "/Users/davidmarino/Desktop/projects/Group18__Testing/googletest/googletest/src/gtest_main.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]
